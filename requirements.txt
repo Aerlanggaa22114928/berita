@@ -1,17 +1,3 @@
 streamlit
 scikit-learn
 pandas
-```
-*(Catatan: Anda dapat menambahkan nomor versi spesifik, misalnya `scikit-learn==1.2.2`, jika Anda ingin memastikan versi yang sama persis dengan yang Anda gunakan saat pelatihan model di Colab.)*
-
-### Langkah 3: Verifikasi Lokasi File
-
-Pastikan struktur *repository* Anda terlihat seperti ini:
-
-```
-nama-repository-anda/
-├── app.py
-├── requirements.txt   <-- File Kunci
-├── naive_bayes_hoax_model.pkl
-├── tfidf_vectorizer.pkl
-└── label_encoder.pkl
